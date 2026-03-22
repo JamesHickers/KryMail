@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Krynet Mail</title>
+</head>
+<body>
+  <h1>Krynet Mail</h1>
+
+  <button onclick="init()">Init Keys</button>
+
+  <h2>Send</h2>
+  <input id="to" placeholder="Recipient ID">
+  <input id="msg" placeholder="Message">
+  <button onclick="send()">Send</button>
+
+  <h2>Inbox</h2>
+  <button onclick="loadInbox()">Refresh</button>
+  <pre id="inbox"></pre>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
